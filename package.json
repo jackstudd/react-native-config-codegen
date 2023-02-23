@@ -2,7 +2,7 @@
   "name": "react-native-config-codegen",
   "version": "1.0.0",
   "description": "Quickly generate a TypeScript declaration file for your .env files",
-  "type": "module",
+  "type": "commonjs",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "jackstudd",
@@ -25,7 +25,7 @@
   "files": [
     "lib/**/*"
   ],
-  "bin": "lib/index.ts",
+  "bin": "lib/index.js",
   "scripts": {
     "build": "tsc",
     "prepare": "yarn build"

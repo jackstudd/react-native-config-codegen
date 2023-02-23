@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const {readFileSync, writeFileSync} = require('fs');
 
 const ENV_FILES: string[] = process.argv.slice(2);
