@@ -1,6 +1,6 @@
 {
   "name": "react-native-config-codegen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly generate a TypeScript declaration file for your .env files",
   "type": "commonjs",
   "main": "lib/index.js",
